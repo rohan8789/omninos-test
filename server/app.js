@@ -30,7 +30,7 @@ mongoose
     `mongodb+srv://rohansinghrp180:fISzwjZitBiEmlKc@cluster0.d8asrvn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
   )
   .then(() => {
-    app.listen(3000, () => {
+    app.listen(8000, () => {
       console.log("server is up and running...");
     });
   })
